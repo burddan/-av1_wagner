@@ -22,8 +22,8 @@ int main(int argc, char* argv[]){
 	return 0;	
 }
 
-void check(letra){
-	if (letra == 'a' || letra == 'e' || letra == 'i' || letar == 'o' || letra == 'u') {
+void check(char  letra){
+	if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u') {
 		printf("vogal\n");
 	} else if((letra >= 'a' && letra <= 'z')) {
 		printf("consoante\n");
