@@ -29,7 +29,22 @@ int main(){
 				if(input == 's')
 						pontos++;
 		}
-		printf("pontos totais %d",pontos);
+		switch(pontos){
+				case 2:
+						printf("suspeito\n");
+						break;
+				case 3:
+				case 4:
+						printf("cumplice\n");
+						break;
+				case 5:
+						printf("assasino\n");
+						break;
+				default:
+						printf("inocente\n");
+						break;
+		}
+		return 1;
 
 }
 
