@@ -14,12 +14,6 @@ int main(int argc, char* argv[]){
 			printf("numero(s) invalido\n");
 			return 1;
 		}
-		for(int j=0;j<2;j++){
-			if(!isdigit(argv[i][j]) || argv[i][j] == '\0'){
-				printf("numero(s) com caracteres invalidos\n");
-				printf("%i\n",argv[i][j]);
-			}
-		}
 		media += atoi(argv[i]); 
 	}
 	if(media / 2 >= 7){
